@@ -1,0 +1,446 @@
+{
+ "campaign": "tsukijifishmarket",
+ "affiliate_base": "?partner_id=1Q7ZSYC&utm_medium=online_publisher&cmp=tsukijifishmarket",
+ "built": "2026-08-02",
+ "sources": [
+  "gyg_tokyo_l193_fish_seafood_tasting_tc2058_22offers-v10.json",
+  "gyg_tokyo_l193_local_food_tours_tc532_25offers-v10.json",
+  "gyg_toyosu_fish_market_l97303_13offers-v10.json",
+  "gyg_tsukiji_l143699_105offers-v10.json",
+  "gyg_tsukiji_outer_market_l165010_26offers-v10.json"
+ ],
+ "counts": {
+  "merged_unique": 133,
+  "base_true": 70,
+  "relaxed_30_49": 50,
+  "site_filter_rc30_r43": 20,
+  "note": "floor 30 niche-down; 17 excluded ids with reasons in build_analysis.py"
+ },
+ "by_type_counts": {
+  "sushi-class": 6,
+  "auction-toyosu": 3,
+  "market-tour": 5,
+  "food-tour": 6
+ },
+ "tours": [
+  {
+   "id": "695948",
+   "title": "Tokyo: Tsukiji Fish Market Guided Walking Tour - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-fish-market-food-and-walking-tour-t695948/",
+   "type": "market-tour",
+   "rating": 4.8,
+   "reviews": 1828,
+   "price": 12.7,
+   "formattedPrice": "$13",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/c8e0ffa8507a8d9b5ec4192181cb4365f53b706408fbac49cd77fdef2ec0728f.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/c88f73914ed8ff437647d3a2d5ba4740797b81ed9aed6ec6ada0567d8bdf01d8.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/22d0d400e5677126721a6cc5d87d906ee657eeb6641bdaf8c0f554da0e5f44c6.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "121812",
+   "title": "Tokyo Tsukiji Fish Market Food Walking Tour with 5 Tastings - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-fish-market-street-food-tour-with-tasting-t121812/",
+   "type": "food-tour",
+   "rating": 4.7,
+   "reviews": 804,
+   "price": 95.28,
+   "formattedPrice": "$95",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/5dd78405ba9ee.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/5d1f2d11db8fc.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/f8d07b8343804c194232c6a2042c94cd320ed5fe41a01d02359605b3c06d6ea0.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "627403",
+   "title": "Tokyo: Tsukiji Fish Market Sushi Making Class with Pro Chef - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-fish-market-sushi-making-class-with-pro-chef-t627403/",
+   "type": "sushi-class",
+   "rating": 4.9,
+   "reviews": 758,
+   "price": 52.72,
+   "formattedPrice": "$53",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/c825c7d3e7b3b75506a0f27534ae67f0f1b5fbbc63327ef4a30c8eb07b75db54.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/05d8f1b81b9cbd43d76b004e44fea3a4b6781ab057605e3e531881649c5ffbd1.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/c6f3e1c79f5d940f611d1a5958b6a63cae3d0a1ec52872a676ca3d7a0dfd523c.png"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "833499",
+   "title": "Tokyo: Private Walking Tour with a Local Guide - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-private-walking-tour-with-a-local-guide-t833499/",
+   "type": "market-tour",
+   "rating": 5.0,
+   "reviews": 599,
+   "price": 51.45,
+   "formattedPrice": "$51",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/8d2f70af37ba598d9b5169194e14d0dbafac79a2e0b398a302c6055f5fb0dab7.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/2b77869cdc6ced43e98e4a4c82bbf267e5b950cc489381870448200904a15018.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/6b26c7589dd9ce242d846501950036ef374861187cf7bbabb627289a9b191622.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "895027",
+   "title": "Tsukiji Fish Market: Street Food & Culture Walking Tour - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tsukiji-fish-market-street-food-culture-walking-tour-t895027/",
+   "type": "food-tour",
+   "rating": 4.9,
+   "reviews": 452,
+   "price": 12.7,
+   "formattedPrice": "$13",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/cdb91013d2b1905fc29d08b11b25b3e5c31a7decbc12d123febadab2cd3007a1.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/f460d46821209b586167ea4e094ebb27bd99d81424881115cad17a074d3e7dff.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/9da61f023e61144ddb9c57441c81da2f4bbf24dde6e34d45298aea29100598ec.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "75014",
+   "title": "Tokyo: Sushi Making Class - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-sushi-making-class-t75014/",
+   "type": "sushi-class",
+   "rating": 4.9,
+   "reviews": 424,
+   "price": 69.87,
+   "formattedPrice": "$70",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/58097bb8939a6.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/58097bf9bdc52.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/5dbba86da1594.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "1010286",
+   "title": "Tokyo: Toyosu Tuna Auction &Tsukiji Market Gourmet Adventure - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-toyosu-tuna-auction-tsukiji-market-gourmet-adventure-t1010286/",
+   "type": "auction-toyosu",
+   "rating": 4.9,
+   "reviews": 376,
+   "price": 115.6,
+   "formattedPrice": "$116",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/410429831228671f26073dcfc7eb101f76b5cb65afbe7380c2852f1647face40.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/1718e8808ed5bcee5d59381a8ffaa2b3729ac9cb2d018a487e6e3d7a36527de3.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/53143f86e654c5abfbfb3ef14d756c5f1cc9e57f39aa41594594e7cebd60ccfb.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "600647",
+   "title": "Private Toyosu & Tsukiji Market Adventure with Tuna Auction - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/private-toyosu-tsukiji-market-adventure-with-tuna-auction-t600647/",
+   "type": "auction-toyosu",
+   "rating": 4.8,
+   "reviews": 268,
+   "price": 150.86,
+   "formattedPrice": "$151",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/53d6aba183e62dbd2d584ecebe8084de0868d312cf9f5c8a30b9046d3107c3d4.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/0d62589aaa65bdbaa719737312bbeea4930fac0b6c3e9d6002c43b02cd5ca423.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/eb2cb906469ecd643e724a867661e4f299fd8b572286f831ee76193a9257cada.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "341561",
+   "title": "Tsukiji Fish Market: Behind the Scenes & 10 Seafood Tastings - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tsukiji-fish-market-walking-tour-14-stops-seafood-lunch-t341561/",
+   "type": "food-tour",
+   "rating": 4.6,
+   "reviews": 176,
+   "price": 92.74,
+   "formattedPrice": "$93",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/ba5cd4e87d720f4e5da40be9a008979b3d9951fa131259cc6bb84477c6d3f110.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/d099d6a97716a8796fc8573868032f1067ade058d8846db78991db113b0b7e6c.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/628a4b4f746c1f2c6135ce124a492389597441c4d772871d137886210a1c5220.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "1036239",
+   "title": "Tokyo Toyosu Tuna Auction + Breakfast (Sushi Dai or Bentomi) - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-toyosu-tuna-auction-w-dealer-sushi-standard-to-vip-t1036239/",
+   "type": "auction-toyosu",
+   "rating": 4.6,
+   "reviews": 151,
+   "price": 114.59,
+   "formattedPrice": "$115",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/6dab213f28cca48240947e1b323e139422e2429ca83aa1dc49a0b43e6a42e8d9.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/bb7d21212b949095986132dd11454a7e76eb9f9837706d4855fb71203eee8ff6.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/3726d86903fb87ad457c4ae354ea1c8f4a84c66815a5ef274d5bbd58b3fc8c17.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "72321",
+   "title": "Tokyo: Tsukiji Market Walking Tour & Sushi Cooking Class - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-market-walking-tour-sushi-cooking-class-t72321/",
+   "type": "sushi-class",
+   "rating": 4.7,
+   "reviews": 126,
+   "price": 95.28,
+   "formattedPrice": "$95",
+   "currency": "USD",
+   "duration": null,
+   "badges": [
+    "Top rated"
+   ],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/498378cf52e88ac99083dc51c86ee87c76e5816ab10123996048629f7db18b7b.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/48a5cd6ced4f4a0b4939b8f4f49af50d4f92cb61de70488d6c55ff123db84deb.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/8cd5af1ffdcb4fa3cc730cf3ef91a5a298e3a468886003a6cc8ef415b9aaccd0.png"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "561932",
+   "title": "Tokyo: Sushi Making with Pro Chef & Tsukiji Fish Market Tour - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-sushi-making-with-pro-chef-tsukiji-fish-market-tour-t561932/",
+   "type": "sushi-class",
+   "rating": 4.8,
+   "reviews": 91,
+   "price": 94.01,
+   "formattedPrice": "$94",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/4fe6d92050fa7560f1c8d2a9878393bd17cc6db7c077e6313e6df99d2e7fa8b6.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/13d29ca7a2be18630416e1bd5555bac8f31682eded2f6d90ac8cafda6c6ecf23.png",
+    "https://cdn.getyourguide.com/image/99/tour_img/d583ba4cea8c00ebc4e5b72cd35faa1f24eacb3d98d10a43734b9463c104923c.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "978986",
+   "title": "Tokyo: Tsukiji Market and Hama-rikyu Gardens Guided Tour - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-market-and-hama-rikyu-gardens-guided-tour-t978986/",
+   "type": "market-tour",
+   "rating": 4.8,
+   "reviews": 83,
+   "price": 31.51,
+   "formattedPrice": "$32",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/8e079f80dc9c386496e0833d9c64cee43bf7eaa93efe954855a833a9cd5470a1.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/2a58fcf384832fb6c47c45b9628329d49506c041ca12f7b25e3ff4e2707b878c.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/3426ce6113aed5b43fa56ea0e4f54efb65ccc541f2343ff23f10ca2d7f1871e8.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "446010",
+   "title": "Tsukiji: Outer Market Walking Tour & Sake Tasting Experience - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tsukiji-outer-market-walking-tour-with-sake-tastings-t446010/",
+   "type": "food-tour",
+   "rating": 4.9,
+   "reviews": 81,
+   "price": 69.87,
+   "formattedPrice": "$70",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/63f081947a12d.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/63f0818944715.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/63f08009b0b58.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "107401",
+   "title": "Tokyo: Classic Tsukiji Food Tour - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tsukiji-inner-and-outer-market-tour-t107401/",
+   "type": "food-tour",
+   "rating": 4.9,
+   "reviews": 78,
+   "price": 178.17,
+   "formattedPrice": "$178",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/19d7a471f984fc8062fba0b696cea1fcafe6bb6330f10953815b92587bc0aab7.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/a8c9a56e8712adf6d791da2640832b4b414c4a72119a0ed589ffb8bd912aaede.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/33ac45f363b49445e498e68b5269d81330bdf039edadba35513bca98551507a2.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "122966",
+   "title": "Tokyo’s Kitchen: Tsukiji Market Food & Culture Walk - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-s-tsukiji-fish-market-tastings-culture-shrine-tour-t122966/",
+   "type": "market-tour",
+   "rating": 4.6,
+   "reviews": 75,
+   "price": 79.62,
+   "formattedPrice": "$80",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/34f57abf081916dbb9007a41430e844c60e0dace0d99dba8d90073093240c44c.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/9d26b0ae3362d7387506eaac92539e5ddceb720b61cbe97d1966e4f873c48589.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/79c2301401d5377027c46600ba68f1d788590e945fe6fd0058024c086efb2070.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "446017",
+   "title": "Tsukiji: Unlimited Sake Tasting Experience - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/sake-tastings-in-tsukiji-t446017/",
+   "type": "food-tour",
+   "rating": 4.9,
+   "reviews": 71,
+   "price": 53.99,
+   "formattedPrice": "$54",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/63f08bd5d2a0d.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/63f17a8099733.jpeg",
+    "https://cdn.getyourguide.com/image/99/tour_img/63f17b906e01b.jpeg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "1234718",
+   "title": "Tsukiji Fish Market Sushi Making – Make Your Own Sushi Bento - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-market-insider-s-sushi-bento-making-class-t1234718/",
+   "type": "sushi-class",
+   "rating": 5.0,
+   "reviews": 66,
+   "price": 50.21,
+   "formattedPrice": "$50",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/07e4a4c16caa7858769260df6a3dcf6f5e41f2bbc0ba9da96c4775acbf492485.png",
+    "https://cdn.getyourguide.com/image/99/tour_img/3cbbafef4d2f895373a64cb63f966a3e0460b5a9b19b6f33b840cb9451901e20.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/bbeb1a3e3c44ff06f752007b9c5933189b8e98490761deaff4d527b70213952b.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "1291460",
+   "title": "Sushi Making & Tsukiji Market Insider Tour with Tuna Tasting - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-tsukiji-insider-market-walk-sushi-bento-making2h-t1291460/",
+   "type": "sushi-class",
+   "rating": 4.9,
+   "reviews": 64,
+   "price": 61.01,
+   "formattedPrice": "$61",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/aed158c60f8e8c1a13efde6885d19ee9c89c9b24f7a508b70f32f9e00ec5aa8a.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/39d8459120da734767df038753492a51b7c12dd460ab035d91a7c77f64bf060a.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/46e6ee6be82860c2be18a4e09a17f733f91a78ad0565875e89ccb99ff129b910.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  },
+  {
+   "id": "957279",
+   "title": "Tokyo Morning Tour: Meiji Shrine, Asakusa & Fish Market - 2026 (Verified Reviews)",
+   "url": "https://www.getyourguide.com/tokyo-l193/tokyo-morning-tour-meiji-shrine-asakusa-fish-market-t957279/",
+   "type": "market-tour",
+   "rating": 4.9,
+   "reviews": 51,
+   "price": 69.87,
+   "formattedPrice": "$70",
+   "currency": "USD",
+   "duration": null,
+   "badges": [],
+   "images": [
+    "https://cdn.getyourguide.com/image/99/tour_img/be8c330aea4714f3d2cba43e51830b225c69236345853a7f661eb9a54fce53da.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/4e40237fe58b43e9b9137ec2a69786122d910cd878fd4e60a63e49f1df586e6d.jpg",
+    "https://cdn.getyourguide.com/image/99/tour_img/8e77a94826fc1bdfa5c65501b44fbd4f9381f44ea7f016a0f6f44b6090ccd3e8.jpg"
+   ],
+   "abstract": null,
+   "freeCancellation": true
+  }
+ ],
+ "variant": "hand-curated <30: card grid, whole-card-clickable (P.4), Ichiba dish-card design"
+}
