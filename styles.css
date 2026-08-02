@@ -424,6 +424,11 @@ a.bento-cell:hover { transform: translateY(-3px); box-shadow: var(--shadow); bor
 .photo-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
 .photo-fig figcaption a { color: var(--muted); }
 
+/* ---------- infographic figure ---------- */
+.info-fig { margin: 1.8rem auto 0; max-width: 820px; }
+.info-fig img { width: 100%; height: auto; border-radius: var(--r); border: 1px solid var(--border); display: block; }
+.info-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .4rem; text-align: center; }
+
 /* ---------- FAQ ---------- */
 .faq-item { border-bottom: 1px solid var(--border); }
 .faq-question {
