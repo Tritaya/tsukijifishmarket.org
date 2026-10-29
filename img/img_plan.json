@@ -1,0 +1,23 @@
+{
+ "site": "tsukijifishmarket.org",
+ "written": "2026-10-29",
+ "style": "img/STYLE.txt",
+ "note": "AI slots are NOT generated: the main session directs /chatgpt-image. The page ships without the slot's <img>, so nothing is broken before it exists; wiring = add the figure at the named place. Served from the repo root (publish = \".\"); this file and STYLE.txt are 404ed by netlify/edge-functions/strip-html.ts.",
+ "slots": [
+  {"page": "/tsukiji-vs-toyosu", "slot": "map", "kind": "map", "status": "done 2026-10-29",
+   "file": "img/tsukiji-vs-toyosu-map.webp", "served": "/img/tsukiji-vs-toyosu-map.webp",
+   "spec": "__meta/maps/specs/tsukiji_vs_toyosu_markets.json",
+   "alt": "Map of Tsukiji Outer Market with Tsukiji and Tsukijishijo stations, and Toyosu Market with Shijo-mae and Toyosu stations, across the Sumida River"},
+  {"page": "/tsukiji-vs-toyosu", "slot": "illustration", "key": "tsukiji-vs-toyosu-gallery-illustration", "kind": "illustration",
+   "status": "planned (not generated)",
+   "file": "img/tsukiji-vs-toyosu-toyosu-gallery-tuna-auction.webp",
+   "served": "/img/tsukiji-vs-toyosu-toyosu-gallery-tuna-auction.webp",
+   "size": [1200, 630],
+   "place": "section #compare, directly after the side-by-side table and before the YouTube figure, as <figure class=\"info-fig\"> with width=1200 height=630 loading=lazy",
+   "alt": "Illustration of visitors at the glass of Toyosu Market's second-floor gallery looking down on rows of tuna on the auction floor at dawn",
+   "caption": "Illustration. The free second-floor gallery at Toyosu: you watch the tuna auction through glass, from above.",
+   "figures": ["Gallery opens 5:00 on market days, free, no booking, no cap (Toyosu FAQ, checked October 2026)", "Bidding for large fish starts 5:30 (Toyosu Market overview)"],
+   "prompt": "Flat editorial illustration, landscape 1200x630, warm paper background. ONE scene, indoors: inside a modern, sealed wholesale market building at dawn, seen from behind a small group of four visitors standing at a long floor-to-ceiling glass window on an upper-floor corridor. Below the glass, a wide pale-green floor holds neat rows of large whole frozen tuna, tails cut, with a few buyers in caps and rubber boots walking between the rows and one auctioneer on a low step with a raised hand. Cool ice-blue light inside the hall, warm light on the visitors. No knives or blades, no blood, no text, no signs, no logos, no recognisable faces (visitors seen from behind).",
+   "do_not": ["knife close-up", "visitors on the trading floor", "text or lettering", "Mt Fuji", "people eating"]}
+ ]
+}

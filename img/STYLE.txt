@@ -1,0 +1,13 @@
+tsukijifishmarket.org illustration style (for /chatgpt-image; the main session generates, build agents only plan)
+
+Look: flat editorial illustration, warm paper background (#faf8f4), ink outlines, limited palette of tuna red (#c0392f),
+egg yellow (#f2b705), nori dark green-black (#22261f) and, for Toyosu scenes, cool ice blue (#eef4f5 / #2c6e7f).
+No photo-realism, no 3D render look, no text or lettering inside the image (labels belong in the HTML caption).
+
+Setting rules:
+- Toyosu scenes are INDOORS: a sealed, modern wholesale building, long glass-walled visitor corridors, the trading
+  floor seen from above through glass. Visitors never stand on the trading floor.
+- Tsukiji scenes are OUTDOORS: narrow open-air lanes of small shop fronts and stalls, daylight.
+- Never show: close-ups of knives or blades, blood, a person eating while walking, brand logos, readable signs,
+  identifiable real people, Mt Fuji or any landmark not on the page.
+- One scene per image. 1200x630 delivered (figimg w/h must match), caption starts "Illustration."

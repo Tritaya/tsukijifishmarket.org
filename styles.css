@@ -484,6 +484,46 @@ a.bento-cell:hover { transform: translateY(-3px); box-shadow: var(--shadow); bor
   border-top: 1px solid #3a3e33; font-size: .8rem;
 }
 
+/* ---------- choice cards (CTA kit device 3) ---------- */
+.choice-cta { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); margin: 1.2rem 0 .8rem; }
+.choice-card {
+  background: #fff; border: 1px solid var(--border); border-radius: var(--r);
+  padding: 1.1rem 1.2rem 1.2rem; display: flex; flex-direction: column; box-shadow: var(--shadow);
+}
+.choice-card--primary { border: 2px solid var(--tuna); }
+.choice-card__tag {
+  font-family: var(--mono); font-size: .66rem; font-weight: 700; letter-spacing: .08em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: .35rem;
+}
+.choice-card--primary .choice-card__tag { color: var(--tuna); }
+.choice-card__title { font-size: 1.02rem; margin-bottom: .35rem; }
+.choice-card__meta { font-size: .8rem; color: var(--muted); margin-bottom: .5rem; }
+.choice-card__why { font-size: .9rem; line-height: 1.5; margin-bottom: .9rem; }
+.choice-card .book-cta { margin-top: auto; align-self: flex-start; white-space: normal; }
+.choice-note { font-size: .8rem; color: var(--muted); font-style: italic; }
+
+/* ---------- map figure ---------- */
+.map-fig { margin: 1.5rem auto 0; max-width: 640px; }
+.map-fig img { width: 100%; height: auto; border-radius: var(--r); border: 1px solid var(--border); display: block; }
+.map-fig figcaption { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
+
+/* ---------- lite YouTube embed ---------- */
+.lite-yt { margin: 1.5rem 0; }
+.lite-yt__frame {
+  position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; padding: 0; border: 0;
+  border-radius: var(--r); overflow: hidden; background: var(--nori); cursor: pointer;
+}
+.lite-yt__frame img, .lite-yt__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border: 0; }
+.lite-yt__play {
+  position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+  width: 68px; height: 48px; border-radius: 12px; background: rgba(192, 57, 47, .92);
+}
+.lite-yt__play::after {
+  content: ""; position: absolute; left: 27px; top: 14px;
+  border-style: solid; border-width: 10px 0 10px 17px; border-color: transparent transparent transparent #fff;
+}
+.lite-yt figcaption { font-size: .78rem; color: var(--muted); margin-top: .4rem; }
+
 @media (max-width: 600px) {
   section { padding: 2.2rem 0; }
   .hero { padding: 2.4rem 0 1.8rem; }

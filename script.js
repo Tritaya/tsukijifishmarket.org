@@ -22,6 +22,20 @@
     }, { passive: true });
   }
 
+  /* ---------- lite YouTube: the iframe loads only on click ---------- */
+  document.querySelectorAll('.lite-yt__frame[data-yt]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var f = document.createElement('iframe');
+      f.src = 'https://www.youtube-nocookie.com/embed/' + btn.dataset.yt + '?autoplay=1&rel=0';
+      f.title = btn.getAttribute('aria-label') || 'YouTube video';
+      f.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
+      f.setAttribute('allowfullscreen', '');
+      f.setAttribute('loading', 'lazy');
+      btn.innerHTML = '';
+      btn.appendChild(f);
+    }, { once: true });
+  });
+
   /* ---------- catalogue filter (type axis, card grid) ---------- */
   var chips = Array.prototype.slice.call(document.querySelectorAll('.filter-chip'));
   var banner = document.getElementById('topicBanner');
