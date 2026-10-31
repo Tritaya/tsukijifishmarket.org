@@ -8,3 +8,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Netlify publish dir, built by make_public.sh
+_public/

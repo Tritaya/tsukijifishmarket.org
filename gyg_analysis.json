@@ -142,8 +142,8 @@
    "url": "https://www.getyourguide.com/tokyo-l193/tokyo-sushi-making-class-t75014/",
    "type": "sushi-class",
    "rating": 4.9,
-   "reviews": 424,
-   "price": 69.87,
+   "reviews": 438,
+   "price": 69.81,
    "formattedPrice": "$70",
    "currency": "USD",
    "duration": null,
@@ -156,7 +156,8 @@
     "https://cdn.getyourguide.com/image/99/tour_img/5dbba86da1594.jpeg"
    ],
    "abstract": null,
-   "freeCancellation": true
+   "freeCancellation": true,
+   "checked": "2026-10-31"
   },
   {
    "id": "1010286",
@@ -231,9 +232,9 @@
    "url": "https://www.getyourguide.com/tokyo-l193/tokyo-toyosu-tuna-auction-w-dealer-sushi-standard-to-vip-t1036239/",
    "type": "auction-toyosu",
    "rating": 4.6,
-   "reviews": 151,
-   "price": 114.59,
-   "formattedPrice": "$115",
+   "reviews": 164,
+   "price": 114.48,
+   "formattedPrice": "$114",
    "currency": "USD",
    "duration": null,
    "badges": [
@@ -245,7 +246,8 @@
     "https://cdn.getyourguide.com/image/99/tour_img/3726d86903fb87ad457c4ae354ea1c8f4a84c66815a5ef274d5bbd58b3fc8c17.jpg"
    ],
    "abstract": null,
-   "freeCancellation": true
+   "freeCancellation": true,
+   "checked": "2026-10-31"
   },
   {
    "id": "72321",
@@ -461,5 +463,5 @@
   }
  ],
  "variant": "hand-curated <30: card grid, whole-card-clickable (P.4), Ichiba dish-card design",
- "refreshed": "2026-10-31 (gyg_tsukiji_l143699 listing, USD; ids missing from it keep 2026-08-02 values)"
+ "refreshed": "2026-10-31 (gyg_tsukiji_l143699 listing, USD; t1036239 and t75014 read on their own product pages the same day)"
 }

@@ -1,5 +1,8 @@
 [build]
-  publish = "."
+  # Publish ONLY public files: make_public.sh copies pages, CSS/JS, images, sitemap, robots and the
+  # IndexNow key into _public/. Repo notes, scripts, data JSON and seeds are never served.
+  command = "sh make_public.sh"
+  publish = "_public"
 
 [[headers]]
   for = "/*.css"

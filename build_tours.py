@@ -40,8 +40,9 @@ for t in analysis["tours"]:
     rating = ("%.1f" % t["rating"]).rstrip("0").rstrip(".")
     badge_extra = ""
     if "Likely to sell out" in (t.get("badges") or []): badge_extra = " &middot; likely to sell out"
-    if analysis.get("refreshed") and not t.get("checked"):
-        badge_extra += " &middot; August 2026 figures"  # not on the latest listing read: keep its own date
+    if not t.get("checked"):
+        # every card must carry the date the methodology states; re-read the listing instead of labelling it
+        raise SystemExit("t%s has no 'checked' date: re-read its plain listing before rebuilding" % tid)
     img_html = ""
     if img:
         img_html = (f'    <a class="tour-img" href="{url}" target="_blank" rel="noopener noreferrer sponsored">\n'
@@ -59,9 +60,20 @@ for t in analysis["tours"]:
         f'    </div>\n'
         f'  </article>')
 
+# Manifest ids kept out of the "Newer & niche listings" block, with the reason (live audit 2026-10-31).
+NICHE_EXCLUDE = {
+    "731913": "Tokyo Bay go-kart ride: not about the market",
+    "939347": "riverside e-bike city tour: passes by only",
+    "855226": "ninja sword-fighting experience: not about the market",
+    "958155": "samurai sushi dining show in Asakusa: a different district, not the market",
+    "602099": "generic one-day city walk: the market is one stop among many",
+    "597526": "15-must-sees city tour: the market is one stop among many",
+    "393715": "generic customised private day: one editorial placement in the callout, never a list row",
+}
+
 pool_ids = {t["id"] for t in analysis["tours"]}
 niche = [(tid, m) for tid, m in manifest.items()
-         if tid not in pool_ids and not m.get("dead") and (m.get("reviews") or 0) >= 5]
+         if tid not in pool_ids and tid not in NICHE_EXCLUDE and not m.get("dead") and (m.get("reviews") or 0) >= 5]
 niche.sort(key=lambda x: -(x[1].get("reviews") or 0))
 niche_rows = []
 for tid, m in niche:
