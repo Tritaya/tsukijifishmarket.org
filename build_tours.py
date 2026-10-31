@@ -40,6 +40,8 @@ for t in analysis["tours"]:
     rating = ("%.1f" % t["rating"]).rstrip("0").rstrip(".")
     badge_extra = ""
     if "Likely to sell out" in (t.get("badges") or []): badge_extra = " &middot; likely to sell out"
+    if analysis.get("refreshed") and not t.get("checked"):
+        badge_extra += " &middot; August 2026 figures"  # not on the latest listing read: keep its own date
     img_html = ""
     if img:
         img_html = (f'    <a class="tour-img" href="{url}" target="_blank" rel="noopener noreferrer sponsored">\n'
@@ -59,7 +61,7 @@ for t in analysis["tours"]:
 
 pool_ids = {t["id"] for t in analysis["tours"]}
 niche = [(tid, m) for tid, m in manifest.items()
-         if tid not in pool_ids and (m.get("reviews") or 0) >= 5]
+         if tid not in pool_ids and not m.get("dead") and (m.get("reviews") or 0) >= 5]
 niche.sort(key=lambda x: -(x[1].get("reviews") or 0))
 niche_rows = []
 for tid, m in niche:
